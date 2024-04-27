@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/index.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="/login.css" rel="stylesheet">
+    <style>
+        .sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+  }
+  /* The navigation menu links */
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 17px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Position and style the close button (top right corner) */
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 20px;
+    margin-left: 50px;
+  }
+  
+  /* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+  #main {
+    transition: margin-left .5s;
+    padding: 20px;
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+.hed{
+  color: rgb(6, 6, 69);
+  text-align: center;
+  margin-top: 45px;
+  font-weight: 500;
+}
+
+.abtus_fin>p{
+  font-size: 15px;
+}
+
+.grid-item1{
+  margin-top: 130px;
+}
+
+.grid-item2{
+  width: 600px;
+  height: 500px;
+  text-align: justify;
+  margin-top: 130px;
+}
+
+.hosi{
+  height: 400px;
+  margin-left: 70px;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 600px 300px;
+
+}
+.grid-container2{
+  display: grid;
+  grid-template-columns: 600px 300px;
+  margin-top: 40px;
+}
+.grid-item11{
+  width: 400px;
+  margin-left: 130px;
+  text-align: justify;
+}
+
+.cc2{
+  margin-left: 180px;
+  height: 250px;
+}
+
+.cardioim{
+  height: 250px;
+}
+.grid-container3{
+  display: grid;
+  grid-template-columns: 600px 400px;
+  margin-top: 60px;
+}
+.grid-item21{
+  margin-left: 130px;
+  margin-top: 50px;
+}
+.grid-item22{
+  width: 400px;
+  text-align: justify;
+  margin-left: 140px; 
+}
+
+.livim{
+  padding: 15px;
+}
+
+.corna{
+  margin-left: 70px;
+  margin-top: 60px;
+}
+
+.description{
+  font-size: larger;
+  text-align: justify;
+}
+
+.grid-cont19{
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 500px 500px 500px;
+  gap: 20px;
+}
+
+.emn{
+  color: rgb(1, 1, 39);
+}
+.emn1{
+  margin-top: 30px;
+  font-size: larger;
+}
+.ambu{
+  margin-top: 60px;
+  text-align: center;
+}
+.container{
+    text-align: center;
+    height: 470px;
+    width: 370px;
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 550px;
+    padding: 20px;
+    border-radius: 10px;
+}
+body{
+    background-image: url('/login_page.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fs1{
+    font-size: 17px;
+}
+
+.fs2{
+    font-size: 17px;
+}
+.in1{
+    padding: 5px;
+}
+.in2{
+    padding: 5px;
+}
+    </style>
+</head>
+<body>
+    <div id="login">
+
+        <nav class="sticky-top navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <div id="mySidenav" class="sidenav">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a href="#">Appointment</a>
+                    <a href="#">Search diet plan</a>
+                    <a href="#">Explore</a>
+                    <a href="#">Contact</a>
+                </div>
+                <img class="dragon" style=" cursor: pointer; margin-right: 30px; height: 20px; margin-bottom: 2px;" src="/image.png" onclick='openNav()'>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <button onclick="lovli()" class="nav-link" >About Us</button>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Ambulance</a>
+                </li>
+                <li class="nav-item">
+                    <button onclick="window.open('http://127.0.0.1:3000/login.html')" class="nav-link">Appointment</button>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                </li>
+                </ul>
+                <ul>
+                <li class="nav-item">
+                    <img style="margin-right: 100px; height: 75px;" class="nav-item" src="/logo2.png">
+                </li>
+                </ul>
+    
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+                <button onclick="window.open('http://127.0.0.1:3000/login.html')" style="margin-left: 70px;" class="btn btn-outline-primary" type="submit">
+                  Login/Sign up
+                </button>
+              </div>
+            </div>
+          </nav>
+          <form action="login.php" method="post">
+            <div class="container">
+            <h1>Login Credential</h1>
+            <br/><hr/>
+            <p class="fs1">Please Enter Your username:</p>
+            <input name="username" class="in1" style="border-radius: 5px; border: 1px solid rgb(2, 2, 43);" type="email"/><br>
+            <br/><hr>
+            <p class="fs2">Please Enter your password:</p>
+            <input name="password" class="in2" style="border-radius: 5px; border: 1px solid rgb(2, 2, 43);" type="password"/><br>
+            <br/><hr>
+            <button name="loginBtn" class="btn btn-outline-success" type="submit">Submit</button>
+        </div>
+          </form>
+        
+    </div>
+    <script>
+        /* Set the width of the side navigation to 250px */
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+  }
+  
+  /* Set the width of the side navigation to 0 */
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
+
+  function lovli(){
+    document.getElementById("lovli").scrollIntoView();
+  }
+
+  function maze(){
+    document.getElementById("ambu").scrollIntoView();
+  }
+
+ </script>
+</body>
+</html>
+
+

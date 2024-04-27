@@ -1,0 +1,29 @@
+.container{
+    text-align: center;
+    height: 470px;
+    width: 370px;
+    background-color: white;
+    margin-top: 100px;
+    margin-left: 550px;
+    padding: 20px;
+    border-radius: 10px;
+}
+body{
+    background-image: url('/login_page.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.fs1{
+    font-size: 17px;
+}
+
+.fs2{
+    font-size: 17px;
+}
+.in1{
+    padding: 5px;
+}
+.in2{
+    padding: 5px;
+}

@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>THC</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <style>
+
+
+.hed{
+  color: rgb(6, 6, 69);
+  text-align: center;
+  margin-top: 45px;
+  font-weight: 500;
+}
+
+.abtus_fin>p{
+  font-size: 15px;
+}
+
+.grid-item1{
+  margin-top: 130px;
+}
+
+.grid-item2{
+  width: 600px;
+  height: 500px;
+  text-align: justify;
+  margin-top: 130px;
+}
+
+.hosi{
+  height: 400px;
+  margin-left: 70px;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: 600px 300px;
+
+}
+.grid-container2{
+  display: grid;
+  grid-template-columns: 600px 300px;
+  margin-top: 40px;
+}
+.grid-item11{
+  width: 400px;
+  margin-left: 130px;
+  text-align: justify;
+}
+
+.cc2{
+  margin-left: 180px;
+  height: 250px;
+}
+
+.cardioim{
+  height: 250px;
+}
+.grid-container3{
+  display: grid;
+  grid-template-columns: 600px 400px;
+  margin-top: 60px;
+}
+.grid-item21{
+  margin-left: 130px;
+  margin-top: 50px;
+}
+.grid-item22{
+  width: 400px;
+  text-align: justify;
+  margin-left: 140px; 
+}
+
+.livim{
+  padding: 15px;
+}
+
+.corna{
+  margin-left: 70px;
+  margin-top: 60px;
+}
+
+.description{
+  font-size: larger;
+  text-align: justify;
+}
+
+.grid-cont19{
+  margin-top: 50px;
+  display: grid;
+  grid-template-columns: 500px 500px 500px;
+  gap: 20px;
+}
+
+.emn{
+  color: rgb(1, 1, 39);
+}
+.emn1{
+  margin-top: 30px;
+  font-size: larger;
+}
+.ambu{
+  margin-top: 60px;
+  text-align: center;
+}
+    </style>
+</head>
+<body>
+    <nav class="sticky-top navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+           
+            <img class="dragon" style=" cursor: pointer; margin-right: 10px; height: 20px; margin-bottom: 2px;" src="/image.png" onclick='openNav()'>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+                <button onclick="lovli()" class="nav-link" >About Us</button>
+            </li>
+            <li class="nav-item">
+                <button onclick="maze()" class="nav-link">Ambulance</button>
+            </li>
+            <li class="nav-item">
+                <button onclick="window.open('https://pompous-rifles.000webhostapp.com/login.php')" class="nav-link">Appointment</button>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true"></a>
+            </li>
+            </ul>
+            <ul>
+            <li class="nav-item">
+                <img style="margin-right: 100px; height: 75px;" class="nav-item" src="/logo2.png">
+            </li>
+            </ul>
+
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+            <button onclick="window.open('https://pompous-rifles.000webhostapp.com/login.php')" style="margin-left: 70px;" class="btn btn-outline-primary" type="submit">
+              Login/Sign up
+            </button>
+          </div>
+        </div>
+      </nav>
+
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="/responsibility.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/Untitled design (2).png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="/Untitled design (3).png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+      </div>
+      
+
+      <h2 class="hed">Consult to the best doctors in the city</h2>
+
+      <div id="lovli" class="grid-container">
+        <div class="grid-item1">
+          <img class="hosi" src="/hospital.png">
+        </div>
+        <div class="grid-item2" style="font-size: 20px;">
+          <div class="abtus">
+            <h1>About us</h1><br>
+          <p style="margin-top: 35px;">
+            Thadve Health Care was established in the year 1999, with the vision of providing physical, mental and emotional support.<br><br>
+            The Thadve Trusts' partnerships with NGOs and other philanthropic organisations has led to impactful initiatives to prevent and treat communicable diseases, improve nutrition and promote fortification, and build knowledge and infrastructure for hygiene and sanitation in the remotest parts of the country. 
+            <br><br> 
+          </p>
+          </div>
+        </div>
+        
+        <div id="cancer">
+          <div class="grid-container2">
+            <div class="grid-item11">
+              <h1>Cancer Treatment</h1><br><br>
+              <p style="font-size: larger;">Ensuring every patient has access to affordable, quality cancer care, through us. We uses technology to establish standards in prevention, detection and treating the disease.</p>
+            </div>
+            <div class="grid-item12">
+              <img class="cc2" src="/cancer_care.png">
+            </div>
+          </div>
+          
+        <div id="surgeon">
+            <div class="grid-container3">
+              <div class="grid-item21">
+                <img class="cardioim" src="/cardio.png">
+              </div>
+              <div class="grid-item22">
+              <div>
+                  <h1>Cardio-vascular treatment</h1><br>
+                  <p style="font-size: larger; margin-top: 25px;">Department of Cardiology was started in the year 1990 and made a quantum leap in providing advanced cardiac care after the establishment of Cath Lab in the year 2015. </p>
+              </div>
+              <div>
+            </div>
+          </div>
+        </div>
+      </div><br>
+
+      <div class="grid-cont19">
+        <div class="grid-item191">
+          <div class="card corna">
+                 <img class="livim" src="/gastro.png"><br>
+                   <h1 class="livim">Liver Transplant</h1><hr>
+                   <p class="description livim">The dedicated department is established with the aim of providing expert care in Medical Gastroenterology and advanced endoscopic Procedures.</p>
+           </div>
+        </div>
+        <div class="grid-item192">
+          <div class="card corna">
+              <img class="livim" src="/arthoscopic.png"><br>
+               <h1 class="livim">Arthoscopic Surgery</h1><hr>
+               <p class="description livim">The department provides facilities in the field of Orthopaedic Surgery Arthoscopy, Sine Surgery, Deformity correction andd caters around 2500 paatients per annum.</p>
+           </div>
+        </div>
+
+        <div class="grid-item193">
+          <div class="card corna">
+              <img class="livim" src="/neurology.png"><br>
+               <h1 class="livim">Neurology</h1><hr>
+               <p class="description livim">Our Diagnostic services include 3 Tesla MRI, 128-slice CT, criticare and post-operative facilities offer our patients the best chance for recovery.</p>
+           </div>
+        </div>
+      </div>
+      </div>
+      </div>
+
+      <div id="ambu" class="ambu">
+        <h1 class="emn">
+          For Ambulance Emergency-call:<br>
+        </h1>
+        <p class="emn1" style="font-size: larger;">
+          Emergency No.
+          +91 9777777777<br>
+          Emergency No.
+          020 7877777777<br>
+          Emergency No.
+          020 6666655555<br>
+        </p>
+      </div>
+
+      
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
+      /* Set the width of the side navigation to 250px */
+function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+  }
+  
+  /* Set the width of the side navigation to 0 */
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
+
+  function lovli(){
+    document.getElementById("lovli").scrollIntoView();
+  }
+
+  function maze(){
+    document.getElementById("ambu").scrollIntoView();
+  }
+
+  function validateForm(){
+    var returnval=true;
+    var name=document.forms['myForm']['logi'].value;
+    console.log(name);
+
+    
+
+    return returnval;
+  }
+    </script>
+</body>
+</html>
